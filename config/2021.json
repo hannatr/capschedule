@@ -1,0 +1,149 @@
+{
+  "start": "2021-01-01",
+  "end": "2021-06-30",
+  "holidays": ["2021-01-01", "2021-01-18", "2021-02-15", "2021-05-31"],
+  "staff": [
+    {
+      "name": "D",
+      "assignments": [9],
+      "holidays": [4],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "nth", "count": 3, "day": 1, "time": "07:00:00"},
+        {"compare": "nth", "count": 4, "day": 1, "time": "07:00:00"},
+        {"compare": "nth", "count": 1, "day": 2, "time": "07:00:00"},
+        {"compare": "nth", "count": 3, "day": 2, "time": "07:00:00"},
+        {"compare": "equals", "value": ["2021-04-07 07:00:00", "2021-04-07 19:00:00", "2021-04-08 07:00:00", "2021-04-08 19:00:00"]}
+      ]
+    },
+    {
+      "name": "F",
+      "assignments": [9],
+      "holidays": [4],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "in", "prop": "dayofweek", "value": [0, 1, 2, 3, 4], "time": "19:00:00"}
+      ]
+    },
+    {
+      "name": "G",
+      "assignments": [7],
+      "holidays": [3],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "nth", "count": 2, "day": 2, "time": "19:00:00"}
+      ]
+    },
+    {
+      "name": "H",
+      "assignments": [7],
+      "holidays": [3],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]}
+      ]
+    },
+    {
+      "name": "D",
+      "assignments": [7],
+      "holidays": [3],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00"]},
+        {"compare": "in", "prop": "dayofweek", "value": [0], "time": "19:00:00"},
+        {"compare": "in", "prop": "dayofweek", "value": [2], "time": "07:00:00"}
+      ]
+    },
+    {
+      "name": "A",
+      "assignments": [7],
+      "holidays": [3],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "in", "prop": "dayofweek", "value": [0, 1, 2, 3, 4, 5, 6], "time": "07:00:00"},
+        {"compare": "in", "prop": "dayofweek", "value": [0], "time": "19:00:00"},
+        {"compare": "nth", "count": 2, "day": 2, "time": "19:00:00"},
+        {"compare": "nth", "count": 3, "day": 2, "time": "19:00:00"},
+        {"compare": "nth", "count": 4, "day": 2, "time": "19:00:00"}
+      ]
+    },
+    {
+      "name": "T",
+      "assignments": [0],
+      "holidays": [0],
+      "dates-off": [
+        {"compare": "in", "prop": "month", "value": [1], "time": ""}
+      ]
+    },
+    {
+      "name": "G",
+      "assignments": [3],
+      "holidays": [2],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "nth", "count": 4, "day": 2, "time": "19:00:00"},
+        {"compare": "nth", "count": 1, "day": 1, "time": "07:00:00"},
+        {"compare": "nth", "count": 2, "day": 1, "time": "07:00:00"}
+      ]
+    },
+    {
+      "name": "C",
+      "assignments": [3],
+      "holidays": [2],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "nth", "count": 4, "day": 0, "time": "07:00:00"}
+      ]
+    },
+    {
+      "name": "H",
+      "assignments": [3],
+      "holidays": [1],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "nth", "count": 1, "day": 3, "time": "19:00:00"},
+        {"compare": "nth", "count": 4, "day": 0, "time": "19:00:00"},
+        {"compare": "nth", "count": 1, "day": 0, "time": "07:00:00"}
+      ]
+    },
+    {
+      "name": "Y",
+      "assignments": [0],
+      "holidays": [0],
+      "dates-off": [
+        {"compare": "in", "prop": "month", "value": [1], "time": ""},
+        {"compare": "nth", "count": 1, "day": 0, "time": "19:00:00"},
+        {"compare": "nth", "count": 3, "day": 0, "time": "19:00:00"},
+        {"compare": "nth", "count": 1, "day": 3, "time": "19:00:00"},
+        {"compare": "nth", "count": 2, "day": 2, "time": "19:00:00"},
+        {"compare": "nth", "count": 3, "day": 2, "time": "19:00:00"},
+        {"compare": "nth", "count": 4, "day": 2, "time": "19:00:00"}
+      ]
+    },
+    {
+      "name": "S",
+      "assignments": [2],
+      "holidays": [1],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "in", "prop": "dayofweek", "value": [4], "time": "19:00:00"},
+        {"compare": "in", "prop": "dayofweek", "value": [5, 6], "time": ""}
+      ]
+    },
+    {
+      "name": "J",
+      "assignments": [2],
+      "holidays": [1],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]}
+      ]
+    },
+    {
+      "name": "C",
+      "assignments": [3],
+      "holidays": [1],
+      "dates-off": [
+        {"compare": "equals", "value": ["2021-01-01 07:00:00", "2021-01-01 19:00:00", "2021-01-02 07:00:00", "2021-01-02 19:00:00"]},
+        {"compare": "in", "prop": "dayofweek", "value": [0, 1, 2, 3, 4, 5, 6], "time": "07:00:00"}
+      ]
+    }
+  ]
+}
